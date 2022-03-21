@@ -1,6 +1,4 @@
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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')
-// 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
 const jwt = require("jsonwebtoken");
 const Employee = require('../models/Employee');
 const User = require('../models/User');
